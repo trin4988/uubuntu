@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    list-style: none;\r\n    text-decoration: none;\r\n}\r\nbody{\r\n    font-family: 'Ubuntu', sans-serif;\r\n}\r\nheader{\r\n    background-color: #000;\r\n    a{\r\n        color: #fff;\r\n    }\r\n}\r\n.global-nav{\r\n    background-color: #333;\r\n    a{\r\n        color: #fff;\r\n    }\r\n    }\r\n.event{\r\n    background: rgb(119,33,111);\r\nbackground: linear-gradient(49deg, rgb(119, 33, 110) 0%, rgb(233, 86, 32) 100%);\r\nheight: 500px;\r\nbackground-image: url(\"../img/øksehallenerne.jpg\");\r\nbackground-repeat: no-repeat;\r\nbackground-size: 100%;\r\n}\r\n"
+	],
+	"mappings": ";;AACA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;EACX,UAAU,EAAE,IAAK;EACjB,eAAe,EAAE,IAAK;CACzB;;;AACD,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,oBAAqB;CACrC;;;AACD,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,IAAK;CAI1B;;;AALD,AAEI,MAFE,CAEF,CAAC,CAAA;EACG,KAAK,EAAE,IAAK;CACf;;;AAEL,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAE,IAAK;CAItB;;;AALL,AAEI,WAFO,CAEP,CAAC,CAAA;EACG,KAAK,EAAE,IAAK;CACf;;;AAEL,AAAA,MAAM,CAAA;EACF,UAAU,EAAE,OAAG;EACnB,UAAU,EAAE,gDAAe;EAC3B,MAAM,EAAE,KAAM;EACd,gBAAgB,EAAE,iCAAG;EACrB,iBAAiB,EAAE,SAAU;EAC7B,eAAe,EAAE,IAAK;CACrB",
+	"names": []
+}
