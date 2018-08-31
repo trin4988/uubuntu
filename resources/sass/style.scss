@@ -1,23 +1,38 @@
-
+@mixin text {
+    color: #fff;
+    text-align: center;
+    display: inline;
+  }
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
+$Ubuntuorange: #E95420; 
+$Lightaubergine:#77216F;
+$Warmgrey: #AEA79F;
+$Textgrey:#111;
+
 body{
     font-family: 'Ubuntu', sans-serif;
 }
 header{
     background-color: #000;
-    a{
-        color: #fff;
+    nav li{
+@include text()
     }
 }
+
 .global-nav{
+    
     background-color: #333;
     a{
         color: #fff;
+        @include text;
+    }
+    img{
+
     }
     }
 .event{
@@ -27,4 +42,5 @@ height: 500px;
 background-image: url("../img/øksehallenerne.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
+@include text;
 }

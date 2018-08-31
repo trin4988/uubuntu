@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 2, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 6, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7,32 +7,37 @@
   text-decoration: none;
 }
 
-/* line 8, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 17, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 11, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 20, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header {
   background-color: #000;
 }
 
-/* line 13, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
-header a {
+/* line 22, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+header nav li {
   color: #fff;
+  text-align: center;
+  display: inline;
 }
 
-/* line 17, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 27, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav {
   background-color: #333;
 }
 
-/* line 19, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 30, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav a {
   color: #fff;
+  color: #fff;
+  text-align: center;
+  display: inline;
 }
 
-/* line 23, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 38, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .event {
   background: #77216f;
   background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
@@ -40,6 +45,9 @@ header a {
   background-image: url("../img/øksehallenerne.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  color: #fff;
+  text-align: center;
+  display: inline;
 }
 
 /*# sourceMappingURL=../css/style.map */
