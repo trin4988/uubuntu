@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 12, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 2, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7,194 +7,39 @@
   text-decoration: none;
 }
 
-/* line 25, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 8, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 29, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.global-nav {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  background-color: #333;
-  grid-row: 1/2;
-}
-
-/* line 35, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.global-nav a {
-  color: #fff;
-  text-align: right;
-}
-
-/* line 39, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.global-nav nav {
-  grid-column: 3/4;
-  text-align: right;
-  margin-right: 5%;
-}
-
-/* line 44, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.global-nav nav li {
-  text-align: center;
-  display: inline;
-}
-
-/* line 47, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.global-nav img {
-  width: 23%;
-  margin-left: 69%;
-  grid-column: 1/2;
-}
-
-/* line 54, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 11, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
 header {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-row: 1/2;
   background-color: #000;
 }
 
-/* line 60, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-header nav {
-  display: flex;
-  grid-column: 2/3;
-  text-align: right;
-  margin-right: 5%;
-  align-items: center;
-}
-
-/* line 67, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-header nav li {
-  text-align: center;
-  display: inline;
-}
-
-/* line 70, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 13, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
 header a {
   color: #fff;
 }
 
-/* line 76, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.ubuntulogo {
-  width: 27%;
-  padding: 5%;
-  display: inline-block;
-  background-color: #E95420;
-  grid-column: 1/2;
-  margin-left: 62%;
+/* line 17, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+.global-nav {
+  background-color: #333;
 }
 
-/* line 83, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.ubuntulogo img {
-  display: inline-block;
-  width: 100%;
+/* line 19, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+.global-nav a {
+  color: #fff;
 }
 
-/* line 87, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.ubuntulogo figure {
-  margin: 5%;
-  width: 100%;
-  display: inline-block;
-}
-
-/* line 94, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 23, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
 .event {
+  background: #77216f;
+  background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
   height: 500px;
   background-image: url("../img/øksehallenerne.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  color: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 103, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.event .content {
-  font-size: 2em;
-  display: grid;
-  grid-template-columns: 1fr;
-  text-align: center;
-  color: #000;
-}
-
-/* line 110, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.event button {
-  align-content: center;
-  display: flex;
-  text-align: center;
-  display: inline;
-  color: #111;
-  border: none;
-  padding: 2%;
-  background: none;
-  font-size: 1em;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  background: #77216f;
-  background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
-}
-
-/* line 126, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.mailform {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-}
-
-/* line 131, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.mailform h1, .mailform form {
-  justify-self: center;
-}
-
-/* line 134, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.mailform fieldset {
-  border: none;
-}
-
-/* line 137, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.mailform input {
-  font-size: 1em;
-}
-
-/* line 142, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.top-news {
-  background-color: #f7f7f7;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  background-color: #AEA79F;
-  color: #111;
-}
-
-/* line 151, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.iconlinks {
-  background-color: #f7f7f7;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 159, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.desktop {
-  color: #fff;
-}
-
-/* line 163, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.iot {
-  color: #fff;
-}
-
-/* line 166, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-footer {
-  background: #77216f;
-  background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
-  height: 250px;
 }
 
 /*# sourceMappingURL=../css/style.map */
