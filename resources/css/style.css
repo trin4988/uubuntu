@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 2, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 2, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7,32 +7,32 @@
   text-decoration: none;
 }
 
-/* line 8, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 8, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 11, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 11, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header {
   background-color: #000;
 }
 
-/* line 13, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 13, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header a {
   color: #fff;
 }
 
-/* line 17, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 17, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav {
   background-color: #333;
 }
 
-/* line 19, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 19, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav a {
   color: #fff;
 }
 
-/* line 23, C:/Users/Trine/Documents/TrineWebProjekts/Ubuntu/resources/sass/style.scss */
+/* line 23, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .event {
   background: #77216f;
   background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
