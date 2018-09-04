@@ -181,8 +181,19 @@ header a {
   align-items: center;
 }
 
-/* line 176, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 174, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.iconlinks div {
+  color: #111;
+}
+
+/* line 178, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.iconlinks a {
+  color: #111;
+}
+
+/* line 184, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .signup {
+  background-color: #f7f7f7;
   margin: auto;
   width: 1000px;
   display: flex;
@@ -194,29 +205,50 @@ header a {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 184, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 193, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .signup input {
   font-size: 1em;
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 188, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 197, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .signup textarea {
   font-size: 1em;
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 194, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 202, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.eventevent {
+  width: 1200px;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+/* line 216, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.eventinfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+/* line 221, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.progrmwrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+/* line 226, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .desktop {
   color: #fff;
 }
 
-/* line 199, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 232, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .iot {
   color: #fff;
 }
 
-/* line 203, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 236, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 footer {
   background: #77216f;
   background: linear-gradient(49deg, #77216e 0%, #e95620 100%);

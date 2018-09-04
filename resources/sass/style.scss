@@ -171,11 +171,19 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     @include center;
+    div {
+color: $Textgrey;
+//
+    }
+    a{
+        color: $Textgrey;
+        //
+            }
 }
 
 .signup {
-    background-color: #f7f7f7
-   margin: auto;
+    background-color: #f7f7f7;
+     margin: auto;
     width: 1000px;
      @include center;
     margin-top: 1%;
@@ -191,8 +199,32 @@ header {
         font-family: 'Ubuntu', sans-serif;
     }
  }
+ .eventevent{
+// @include center;
+width: 1200px;
+margin: auto;
+justify-items: center;
+align-items: center;
+
+//display: flex;
+//
+ }
+ 
+ .evnetheadline{
+   
+ }
+ .eventinfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+ }
+ .progrmwrapper{
+     width: 1200px;
+     margin: auto; 
+ }
 
 .desktop {
+
     color: #fff;
 }
 
