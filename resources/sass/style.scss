@@ -1,30 +1,170 @@
+@mixin text {
+    text-align: center;
+    display: inline;
+}
 
-*{
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
-body{
+
+$Ubuntuorange: #E95420;
+$Lightaubergine:#77216F;
+$Warmgrey: #AEA79F;
+$Textgrey:#111;
+.wrapper {}
+
+body {
     font-family: 'Ubuntu', sans-serif;
 }
-header{
+
+.global-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: #333;
+    grid-row: 1/2;
+    a {
+        color: #fff;
+        text-align: right;
+    }
+    nav {
+        grid-column: 3/4;
+        text-align: right;
+        margin-right: 5%;
+    }
+    nav li {
+        @include text;
+    }
+    img {
+        width: 23%;
+        margin-left: 69%;
+        grid-column: 1/2;
+    }
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-row: 1/2;
     background-color: #000;
-    a{
+    nav {
+        display: flex;
+        grid-column: 2/3;
+        text-align: right;
+        margin-right: 5%;
+        align-items: center;
+    }
+    nav li {
+        @include text;
+    }
+    a {
+        //   
         color: #fff;
     }
 }
-.global-nav{
-    background-color: #333;
-    a{
-        color: #fff;
+
+.ubuntulogo {
+    width: 27%;
+    padding: 5%;
+    display: inline-block;
+    background-color: #E95420;
+    grid-column: 1/2;
+    margin-left: 62%;
+    img {
+        display: inline-block;
+        width: 100%;
     }
+    figure {
+        margin: 5%;
+        width: 100%;
+        display: inline-block;
     }
-.event{
-    background: rgb(119,33,111);
-background: linear-gradient(49deg, rgb(119, 33, 110) 0%, rgb(233, 86, 32) 100%);
-height: 500px;
-background-image: url("../img/øksehallenerne.jpg");
-background-repeat: no-repeat;
-background-size: 100%;
+}
+
+.event {
+    height: 500px;
+    background-image: url("../img/øksehallenerne.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: $Textgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+        font-size: 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        color: #000;
+    }
+    button {
+        align-content: center;
+        display: flex;
+        @include text;
+        color: $Textgrey;
+        border: none;
+        padding: 2%;
+        background: none;
+        font-size: 1em;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        background: rgb(119, 33, 111);
+    background: linear-gradient(49deg, rgb(119, 33, 110) 0%, rgb(233, 86, 32) 100%);
+    }
+}
+
+.mailform {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    // @include center;
+    h1, form{
+        justify-self: center;
+    }
+    fieldset{
+        border: none;
+    }
+    input{
+        font-size: 1em;
+    }
+}
+//
+.top-news {
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: $Warmgrey;
+    color: $Textgrey;
+}
+
+.iconlinks {
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    @include center;
+}
+
+.desktop {
+    color: #fff;
+}
+//
+.iot {
+    color: #fff;
+}
+footer{
+    background: rgb(119, 33, 111);
+    background: linear-gradient(49deg, rgb(119, 33, 110) 0%, rgb(233, 86, 32) 100%);
+    height: 250px;
 }
