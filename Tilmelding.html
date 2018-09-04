@@ -34,38 +34,41 @@
                 </ul>
             </nav>
         </header>
-        <section class="event">
-            <div class="content">
-                <h1>Tilmelding til event</h1>
-
-                <button>Tilmeld</button>
-            </div>
-        </section>
-
+<section class="signup">
         <form action="#" method="post">
             <div>
-                 <label for="name">Text Input:</label>
-                 <input type="text" name="name" id="name" value="" tabindex="1" />
+                <input type="text" name="txtNameFirst" placeholder="Fornavn" />
+                <br>
+                <input type="text" name="txtNameLast" placeholder="Efternavn" />
+                <br>
+                <input type="text" name="addresse" placeholder="Adrasse" />
+                <br>
+                <input type="text" name="zipcode" placeholder="Poatnummer" />
+                <br>
+                <input type="text" name="city" placeholder="By"/>
+                
+                <br>
+                <input type="email" name="email" placeholder="Email"/>
+
             </div>
-        
+
             <div>
-                 <h4>Radio Button Choice</h4>
+                <label for="select-choice">Select Dropdown Choice:</label>
+                <select name="select-choice" id="select-choice">
+                  <option value="Choice 1">Danmark</option>
+                  <option value="Choice 2">Grønland</option>
+                  <option value="Choice 3">Færøerne</option>
+                </select>
+              </div>
+            <div>
+                 <h4></h4>
         
-                 <label for="radio-choice-1">Choice 1</label>
+                 <label for="radio-choice-1">Internet of things </label>
                  <input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
         
-             <label for="radio-choice-2">Choice 2</label>
+             <label for="radio-choice-2">Desktop</label>
                  <input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
             </div>
-        
-          <div>
-            <label for="select-choice">Select Dropdown Choice:</label>
-            <select name="select-choice" id="select-choice">
-              <option value="Choice 1">Choice 1</option>
-              <option value="Choice 2">Choice 2</option>
-              <option value="Choice 3">Choice 3</option>
-            </select>
-          </div>
         
           <div>
             <label for="textarea">Textarea:</label>
@@ -73,30 +76,10 @@
           </div>
         
           <div>
-              <label for="checkbox">Checkbox:</label>
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            </div>
-        
-          <div>
               <input type="submit" value="Submit" />
             </div>
         </form>
-
-        <section class="mailform">
-            <h1>Vil du gerne have fordele?</h1>
-            <form id="contactform" method="POST">
-                <fieldset>
-                    <input id="firstname" type="text" name="txtNameFirst" placeholder="Fulde navn" />
-                    <br>
-                    <input type="email" name="email" placeholder="E-mail" />
-                    <br>
-                    <button onclick="validate()" type="button">send</button>
-
-
-                </fieldset>
-            </form>
-        </section>
-
+</section>
         <section class="iconlinks">
             <section class="desktop">
                 <a href="#"><img src="resources/img/desktop.svg" alt=""></a>
