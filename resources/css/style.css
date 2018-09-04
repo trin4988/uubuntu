@@ -7,12 +7,12 @@
   text-decoration: none;
 }
 
-/* line 25, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 26, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 29, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 30, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -21,33 +21,33 @@ body {
   grid-row: 1/2;
 }
 
-/* line 35, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 37, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav a {
   color: #fff;
   text-align: right;
 }
 
-/* line 39, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 42, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav nav {
   grid-column: 3/4;
   text-align: right;
   margin-right: 5%;
 }
 
-/* line 44, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 48, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav nav li {
   text-align: center;
   display: inline;
 }
 
-/* line 47, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 52, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .global-nav img {
   width: 23%;
   margin-left: 69%;
   grid-column: 1/2;
 }
 
-/* line 54, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 59, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -56,7 +56,7 @@ header {
   background-color: #000;
 }
 
-/* line 60, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 66, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header nav {
   display: flex;
   grid-column: 2/3;
@@ -65,18 +65,18 @@ header nav {
   align-items: center;
 }
 
-/* line 67, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 74, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header nav li {
   text-align: center;
   display: inline;
 }
 
-/* line 70, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 78, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 header a {
   color: #fff;
 }
 
-/* line 76, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 84, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .ubuntulogo {
   width: 27%;
   padding: 5%;
@@ -86,20 +86,20 @@ header a {
   margin-left: 62%;
 }
 
-/* line 83, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 92, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .ubuntulogo img {
   display: inline-block;
   width: 100%;
 }
 
-/* line 87, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 97, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .ubuntulogo figure {
   margin: 5%;
   width: 100%;
   display: inline-block;
 }
 
-/* line 94, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 104, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .event {
   height: 500px;
   background-image: url("../img/øksehallenerne.jpg");
@@ -111,7 +111,7 @@ header a {
   align-items: center;
 }
 
-/* line 103, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 114, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .event .content {
   font-size: 2em;
   display: grid;
@@ -120,7 +120,7 @@ header a {
   color: #000;
 }
 
-/* line 110, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 122, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .event button {
   align-content: center;
   display: flex;
@@ -137,29 +137,30 @@ header a {
   background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
 }
 
-/* line 126, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 138, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .mailform {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
-/* line 131, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
-.mailform h1, .mailform form {
+/* line 144, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.mailform h1,
+.mailform form {
   justify-self: center;
 }
 
-/* line 134, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 149, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .mailform fieldset {
   border: none;
 }
 
-/* line 137, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 153, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .mailform input {
   font-size: 1em;
 }
 
-/* line 142, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 159, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .top-news {
   background-color: #f7f7f7;
   display: grid;
@@ -169,7 +170,7 @@ header a {
   color: #111;
 }
 
-/* line 151, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 168, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .iconlinks {
   background-color: #f7f7f7;
   display: grid;
@@ -180,17 +181,42 @@ header a {
   align-items: center;
 }
 
-/* line 159, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 176, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.signup {
+  margin: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* line 184, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.signup input {
+  font-size: 1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* line 188, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.signup textarea {
+  font-size: 1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* line 194, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .desktop {
   color: #fff;
 }
 
-/* line 163, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 199, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 .iot {
   color: #fff;
 }
 
-/* line 166, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+/* line 203, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 footer {
   background: #77216f;
   background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
