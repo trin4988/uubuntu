@@ -191,6 +191,12 @@ header a {
 }
 
 /* line 166, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
+.signup {
+  width: 1000px;
+  margin: auto;
+}
+
+/* line 171, C:/Users/Trine/Documents/TrineWebProjekts/u buntu/uubuntu/resources/sass/style.scss */
 footer {
   background: #77216f;
   background: linear-gradient(49deg, #77216e 0%, #e95620 100%);
